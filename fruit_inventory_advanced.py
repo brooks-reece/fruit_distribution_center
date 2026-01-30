@@ -34,3 +34,33 @@ print(fruit_details)
 
 fruit_details["bananas"]["price_per_lb"] = 1.1
 print(fruit_details)
+
+#ADVANCED
+
+#Tuple step
+
+def total_fruit_cost():
+    return(number_of_boxes * cost_per_box)
+
+fruit_name = input("Enter the fruit name: ")
+number_of_boxes = int(input("Enter the number of boxes: "))
+cost_per_box = int(input("Enter the cost per box: "))
+fruit_shipment_NY = (fruit_name, number_of_boxes, cost_per_box)
+#print("Details of NY fruit shipment:", fruit_shipment_NY)
+print(f"The total cost for your {fruit_name} shipment is ${total_fruit_cost()}.")
+
+'''
+fruit_name = input("Enter the fruit name: ")
+number_of_boxes = input("Enter the number of boxes: ")
+cost_per_box = input("Enter the cost per box: ")
+fruit_shipment_CHI = (fruit_name, number_of_boxes, cost_per_box)
+#print("Details of CHI fruit shipment:",fruit_shipment_CHI)
+'''
+'''
+fruit_name = input("Enter the fruit name: ")
+number_of_boxes = input("Enter the number of boxes: ")
+cost_per_box = input("Enter the cost per box: ")
+fruit_shipment_LA = (fruit_name, number_of_boxes, cost_per_box)
+#print("Details of LA fruit shipment:",fruit_shipment_LA)
+'''
+
